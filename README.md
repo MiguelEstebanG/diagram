@@ -79,7 +79,8 @@ graph TD;
 
     %%% Diseñamos el organigrama
 
-    ceo(Martín Mieres <br><b> Chief Executive Officer </b></br>);
+    %% Definición del CEO
+    <!-- include "CEO/ceo.md" -->
 
     %% Área de marketing
     subgraph departamentodeMarketing[ ]
