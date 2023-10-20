@@ -4,7 +4,6 @@ Example of mermaid diagram
 
 graph TD;
 
-
     A-->B;
     A-->C;
     B-->D;
