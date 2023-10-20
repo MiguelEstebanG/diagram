@@ -9,6 +9,7 @@ graph TD;
     B-->D;
     C-->D;
 
+    C(ey);
     %%hola buenos días
     subgraph T[hola]
         A(funcionas?)
