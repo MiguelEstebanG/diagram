@@ -15,7 +15,7 @@ graph TD;
 
         subgraph G[ ]
             B(creo
-            que sí)
+            <b>que sí</b>)
         end
 
     end
