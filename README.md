@@ -80,7 +80,7 @@ graph TD;
     %%% Diseñamos el organigrama
 
     %% Definición del CEO
-    @include CEO/ceo.md
+    @include ceo.md;
 
     %% Área de marketing
     subgraph departamentodeMarketing[ ]
