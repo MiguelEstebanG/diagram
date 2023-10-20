@@ -3,7 +3,7 @@ ORGANIGRAM OF A FICTITIOUS COMPANY
 
 graph TD;
 
-    classDef integrantes fill:#ff, stroke:#fff, stroke-width:0.5px;
+    classDef integrantes fill:none, stroke:#fff, stroke-width:0.5px;
     classDef departamento fill:none, stroke:none;
     classDef area fill:#ff, stroke:#fff, stroke-width:0.5px;
     classDef subdpto fill:#ff, stroke:#fff, stroke-width:0.5px; 
