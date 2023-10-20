@@ -106,7 +106,7 @@ graph TD;
         areaDeNegocio((<b> Área de Negocio </b>));
 
         subgraph departamentoDeProduccion[ ]
-            dptoProduccion[<b> Departamento de Produccion </b>];
+            dptoProduccion[<b> Departamento de Producción </b>];
             jefeDeProduccion(Carla Pérez <br><b> Jefe de Producción </b></br>);
             trabajador([José López <br><b> Trabajador en fábrica </b></br>]);
         end
