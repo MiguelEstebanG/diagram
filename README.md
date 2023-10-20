@@ -1,5 +1,4 @@
-Example of mermaid diagram
-
+ORGANIGRAM OF A FICTICIOUS COMPANY
 ```mermaid
 
 graph TD;
