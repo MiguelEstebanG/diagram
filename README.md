@@ -108,7 +108,7 @@ graph TD;
         subgraph departamentoDeProduccion[ ]
             dptoProduccion[<b> Departamento de Producción </b>];
             jefeDeProduccion(Carla Pérez <br><b> Jefe de Producción </b></br>);
-            trabajador([José López <br><b> Trabajador en fábrica </b></br>]);
+            trabajador([Marta Sanz <br><b> Trabajador en fábrica </b></br>]);
         end
         
         subgraph departamentoFinanciero[ ]
