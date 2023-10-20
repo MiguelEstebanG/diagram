@@ -3,6 +3,10 @@
 
 graph TD;
 
+    %% Definición del CEO
+    @include ceo.md as ceo;
+
+
     classDef integrantes fill:#ff, stroke:#fff, stroke-width:0.5px;
     classDef departamento fill:none, stroke:none;
     classDef area fill:#ff, stroke:#fff, stroke-width:0.5px;
@@ -78,9 +82,6 @@ graph TD;
     jefeDeVentas --- comercial
 
     %%% Diseñamos el organigrama
-
-    %% Definición del CEO
-    @include ceo.md as ceo;
 
     %% Área de marketing
     subgraph departamentodeMarketing[ ]
