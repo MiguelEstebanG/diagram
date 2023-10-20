@@ -6,7 +6,7 @@ graph TD;
     A-->B;
 
     subgraph F[hola]
-        A- ->C;
+        A-->C;
         B-->D;
     end
 
