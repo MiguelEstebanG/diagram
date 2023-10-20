@@ -9,11 +9,15 @@ graph TD;
     B-->D;
     C-->D;
 
+    %%hola buenos días
     subgraph T[hola]
         A(funcionas?)
+
         subgraph G[ ]
-            B(creo que sí)
+            B(creo
+            que sí)
         end
+
     end
 
     linkStyle default stroke-width: 1px;
