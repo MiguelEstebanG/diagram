@@ -5,8 +5,10 @@ graph TD;
 
     A-->B;
 
-    A-->C;
-    B-->D;
+    subgraph F[hola]
+        A- ->C;
+        B-->D;
+    end
 
     C-->D;
 ```
