@@ -3,7 +3,10 @@ Example of mermaid diagram
 ```mermaid
 graph TD;
 
-    ceo ----- areaDeMarketing
+    ceo(
+        Martín Mieres
+        <b> Chief Executive Officer </b>
+    ) ----- areaDeMarketing
 
     areaDeMarketing --- dptoComunicacion
     dptoComunicacion --- directorDeComunicacion
