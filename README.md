@@ -6,10 +6,10 @@ graph TD;
 
     class jojo fill:#ff, stroke:#fff, stroke-width:0.5px, font-size: 20px;
 
-    A:::jojo
-    B:::jojo
-    C:::jojo
-    D:::jojo
+    A:::jojo;
+    B:::jojo;
+    C:::jojo;
+    D:::jojo;
 
     A-->B;
     A-->C;
