@@ -14,8 +14,7 @@ graph TD;
         A(funcionas?)
 
         subgraph G[ ]
-            B(creo
-            <b>que sí</b>)
+            B(creo <br /><b>que sí</b><br />)
         end
 
     end
