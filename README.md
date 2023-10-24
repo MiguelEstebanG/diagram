@@ -151,6 +151,7 @@ graph TD;
     dptoContratacion --- directorDeReclutamiento
     directorDeReclutamiento --- reclutador  
 
+    %% Estilo de los enlaces
     linkStyle default stroke-width: 1px;
 ```
 
