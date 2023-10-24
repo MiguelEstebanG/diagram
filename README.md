@@ -51,6 +51,8 @@ graph TD;
 
     end
 
+
+    %% Definición de Estilos.
     classDef integrantes fill:#ff, stroke:#fff, stroke-width:0.5px;
     classDef departamento fill:none, stroke:none;
     classDef area fill:#ff, stroke:#fff, stroke-width:0.5px;
