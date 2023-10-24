@@ -51,6 +51,18 @@ graph TD;
 
     end
 
+%% Área de RRHH
+    subgraph departamentodeRRHH[ ]
+        areaDeRRHH((<b> Área de RRHH </b>));
+
+        subgraph departamentoDeContratacion[ ]
+            dptoContratacion[<b> Departamento de Contratación </b>];
+            directorDeReclutamiento(Julián López <br><b> Director de Selección </b></br>);
+            reclutador([Carmen Domínguez <br><b> Reclutador/a </b></br>]);
+        end
+
+    end
+
 
     %% Definición de Estilos.
     classDef integrantes fill:#ff, stroke:#fff, stroke-width:0.5px;
@@ -70,7 +82,8 @@ graph TD;
     departamentoDeProduccion:::departamento
     departamentoFinanciero:::departamento
     departamentoDeVentas:::departamento
-    
+    departamentodeRRHH:::departamento
+    departamentoDeContratacion:::departamento    
 
 
     %% Aplicacion de estilos a los subdepartamentos
@@ -79,11 +92,13 @@ graph TD;
     dptoProduccion:::subdpto
     dptoFinanciero:::subdpto
     dptoVentas:::subdpto
+    dptoContratacion:::subdpto
    
 
     %% Aplicacion de estilos a las areas
     areaDeMarketing:::area
     areaDeNegocio:::area
+    areaDeRRHH:::area
 
     %% Aplicacion de estilos a los integrantes
     ceo:::integrantes
@@ -92,6 +107,7 @@ graph TD;
     jefeDeProduccion:::integrantes2
     gestoria:::integrantes2
     directorComercial:::integrantes2
+    directorDeReclutamiento:::integrantes2
     communityManager:::integrantes3
     becario1:::integrantes3
     directorCreativo:::integrantes3
@@ -99,6 +115,7 @@ graph TD;
     trabajador:::integrantes3
     jefeDeVentas:::integrantes3
     comercial:::integrantes3
+    reclutador:::integrantes3
 
    %% Definicion de relaciones
     ceo ----- areaDeMarketing
@@ -126,6 +143,13 @@ graph TD;
     dptoVentas --- directorComercial
     directorComercial --- jefeDeVentas
     jefeDeVentas --- comercial
+
+    ceo ----- areaDeRRHH
+
+    areaDeRRHH --- dptoContratacion
+
+    dptoContratacion --- directorDeReclutamiento
+    directorDeReclutamiento --- reclutador  
 
     linkStyle default stroke-width: 1px;
 ```
